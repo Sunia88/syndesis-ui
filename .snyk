@@ -1,0 +1,33 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:moment:20170905':
+    - patternfly > eonasdan-bootstrap-datetimepicker > moment:
+        patched: '2023-08-30T19:52:42.396Z'
+        id: 'npm:moment:20170905'
+        path: patternfly > eonasdan-bootstrap-datetimepicker > moment
+    - patternfly-ng > patternfly > eonasdan-bootstrap-datetimepicker > moment:
+        patched: '2023-08-30T19:52:42.396Z'
+        id: 'npm:moment:20170905'
+        path: >-
+          patternfly-ng > patternfly > eonasdan-bootstrap-datetimepicker >
+          moment
+    - patternfly > eonasdan-bootstrap-datetimepicker > moment-timezone > moment:
+        patched: '2023-08-30T19:52:42.396Z'
+        id: 'npm:moment:20170905'
+        path: >-
+          patternfly > eonasdan-bootstrap-datetimepicker > moment-timezone >
+          moment
+    - patternfly-ng > patternfly > eonasdan-bootstrap-datetimepicker > moment-timezone > moment:
+        patched: '2023-08-30T19:52:42.396Z'
+        id: 'npm:moment:20170905'
+        path: >-
+          patternfly-ng > patternfly > eonasdan-bootstrap-datetimepicker >
+          moment-timezone > moment
+  'npm:moment:20161019':
+    - patternfly-ng > patternfly > moment:
+        patched: '2023-08-30T19:52:42.396Z'
+        id: 'npm:moment:20161019'
+        path: patternfly-ng > patternfly > moment
